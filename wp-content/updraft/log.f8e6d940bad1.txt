@@ -1,0 +1,132 @@
+0000.005 () Opened log file at time: Sun, 28 May 2023 09:22:36 +0000 on https://karabun.tranbang.work
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.1.3 PHP: 5.6.40 (litespeed, Linux pcluster27.stablehost.com 2.6.32-954.3.5.lve1.4.86.el6.x86_64 #1 SMP Tue Aug 31 17:08:39 UTC 2021 x86_64) MySQL: 10.3.38-MariaDB-log-cll-lve (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 2048M (used: 14.8M | 15.5M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.046 () Free space on disk containing Updraft's temporary directory: 198954.4 MB
+0000.077 () Restore setup, now closing connection and starting restore over AJAX.
+0000.012 () Opened log file at time: Sun, 28 May 2023 09:22:37 +0000 on https://karabun.tranbang.work
+0000.014 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.4 WP: 6.1.3 PHP: 5.6.40 (litespeed, Linux pcluster27.stablehost.com 2.6.32-954.3.5.lve1.4.86.el6.x86_64 #1 SMP Tue Aug 31 17:08:39 UTC 2021 x86_64) MySQL: 10.3.38-MariaDB-log-cll-lve (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 2048M (used: 13.1M | 13.3M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.079 () Free space on disk containing Updraft's temporary directory: 198954.4 MB
+0000.102 () Ensuring WP_Filesystem is setup for a restore
+0000.103 () WP_Filesystem is setup and ready for a restore
+0000.112 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_litespeed_url","wp_litespeed_url_file","wp_wpfm_backup","wp_yoast_seo_links","wp_yoast_seo_meta"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.121 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.126 () Entity: db
+0000.126 () restore_backup(backup_file=backup_2023-05-28-1620_Bbase_Code_b31327366037-db.gz, type=db, info=a:0:{}, last_one=)
+0000.126 () Unpacking backup... (backup_2023-05-28-1620_Bbase_Code_b31327366037-db.gz, 0.2 Mb)
+0000.133 () Database successfully unpacked
+0000.133 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.134 () Using direct MySQL access; value of use_mysqli is: 1
+0000.135 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.289 () Max packet size: 256 MB
+0000.290 () Entering maintenance mode
+0000.290 () Enabling Maintenance mode&#8230;
+0000.316 () Backup of: https://karabun.tranbang.work
+0000.323 () Content URL: https://karabun.tranbang.work/wp-content
+0000.324 () Uploads URL: https://karabun.tranbang.work/wp-content/uploads
+0000.324 () Old table prefix: wp_
+0000.325 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.325 () Site information: multisite=0
+0000.326 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.332 () New table prefix: gu_
+0000.339 () Processing table (InnoDB): wp_options - will restore as: gu_options
+0000.545 () Atomic restore: dropping original table (wp_options)
+0000.566 () Atomic restore: renaming new table (gu_options) to final table name (wp_options)
+0000.578 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.608 () Processing table (InnoDB): wp_users - will restore as: gu_users
+0000.655 () Atomic restore: dropping original table (wp_users)
+0000.675 () Atomic restore: renaming new table (gu_users) to final table name (wp_users)
+0000.688 () Processing table (InnoDB): wp_usermeta - will restore as: gu_usermeta
+0000.736 () Atomic restore: dropping original table (wp_usermeta)
+0000.748 () Atomic restore: renaming new table (gu_usermeta) to final table name (wp_usermeta)
+0000.761 () Processing table (InnoDB): wp_commentmeta - will restore as: gu_commentmeta
+0000.792 () Atomic restore: dropping original table (wp_commentmeta)
+0000.804 () Atomic restore: renaming new table (gu_commentmeta) to final table name (wp_commentmeta)
+0000.821 () Processing table (InnoDB): wp_comments - will restore as: gu_comments
+0000.878 () Atomic restore: dropping original table (wp_comments)
+0000.895 () Atomic restore: renaming new table (gu_comments) to final table name (wp_comments)
+0000.909 () Processing table (InnoDB): wp_links - will restore as: gu_links
+0000.939 () Atomic restore: dropping original table (wp_links)
+0000.951 () Atomic restore: renaming new table (gu_links) to final table name (wp_links)
+0000.963 () Processing table (InnoDB): wp_postmeta - will restore as: gu_postmeta
+0001.068 () Atomic restore: dropping original table (wp_postmeta)
+0001.089 () Atomic restore: renaming new table (gu_postmeta) to final table name (wp_postmeta)
+0001.103 () Processing table (InnoDB): wp_posts - will restore as: gu_posts
+0001.388 () Atomic restore: dropping original table (wp_posts)
+0001.425 () Atomic restore: renaming new table (gu_posts) to final table name (wp_posts)
+0001.438 () Processing table (InnoDB): wp_term_relationships - will restore as: gu_term_relationships
+0001.472 () Atomic restore: dropping original table (wp_term_relationships)
+0001.483 () Atomic restore: renaming new table (gu_term_relationships) to final table name (wp_term_relationships)
+0001.495 () Processing table (InnoDB): wp_term_taxonomy - will restore as: gu_term_taxonomy
+0001.543 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.559 () Atomic restore: renaming new table (gu_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.571 () Processing table (InnoDB): wp_termmeta - will restore as: gu_termmeta
+0001.610 () Atomic restore: dropping original table (wp_termmeta)
+0001.624 () Atomic restore: renaming new table (gu_termmeta) to final table name (wp_termmeta)
+0001.637 () Processing table (InnoDB): wp_terms - will restore as: gu_terms
+0001.679 () Atomic restore: dropping original table (wp_terms)
+0001.694 () Atomic restore: renaming new table (gu_terms) to final table name (wp_terms)
+0001.708 () Processing table (InnoDB): wp_litespeed_url - will restore as: gu_litespeed_url
+0001.754 () Atomic restore: dropping original table (wp_litespeed_url)
+0001.775 () Atomic restore: renaming new table (gu_litespeed_url) to final table name (wp_litespeed_url)
+0001.791 () Processing table (InnoDB): wp_litespeed_url_file - will restore as: gu_litespeed_url_file
+0001.841 () Atomic restore: dropping original table (wp_litespeed_url_file)
+0001.856 () Atomic restore: renaming new table (gu_litespeed_url_file) to final table name (wp_litespeed_url_file)
+0001.870 () Processing table (InnoDB): wp_wpfm_backup - will restore as: gu_wpfm_backup
+0001.908 () Atomic restore: dropping original table (wp_wpfm_backup)
+0001.922 () Atomic restore: renaming new table (gu_wpfm_backup) to final table name (wp_wpfm_backup)
+0001.938 () Processing table (InnoDB): wp_yoast_seo_links - will restore as: gu_yoast_seo_links
+0001.980 () Atomic restore: dropping original table (wp_yoast_seo_links)
+0002.008 () Atomic restore: renaming new table (gu_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0002.021 () Processing table (InnoDB): wp_yoast_seo_meta - will restore as: gu_yoast_seo_meta
+0002.050 () Database queries processed: 50 in 1.91 seconds
+0002.206 () Unlocking database and leaving maintenance mode
+0002.207 () Disabling Maintenance mode&#8230;
+0002.207 () Atomic restore: dropping original table (wp_yoast_seo_meta)
+0002.220 () Atomic restore: renaming new table (gu_yoast_seo_meta) to final table name (wp_yoast_seo_meta)
+0002.232 () Finished: lines processed: 51 in 2.09 seconds
+0002.233 () Cleaning up rubbish...
+0002.251 () Entity: plugins
+0002.251 () restore_backup(backup_file=backup_2023-05-28-1620_Bbase_Code_b31327366037-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:67:"/home/tranbang/public_html/karabun.tranbang.work/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0002.251 () Unpacking backup... (backup_2023-05-28-1620_Bbase_Code_b31327366037-plugins.zip, 22.8 MB)
+0002.253 () Unzipping backup_2023-05-28-1620_Bbase_Code_b31327366037-plugins.zip to /home/tranbang/public_html/karabun.tranbang.work/wp-content/upgrade/d50617e4/ using UpdraftPlus_ZipArchive, starting index 0
+0003.270 () Unzip progress: 1002 out of 4090 files (3.2 MB, plugins/updraftplus/vendor/composer/autoload_static.php)
+0008.687 () Unzip progress: 2003 out of 4090 files (26.3 MB, plugins/advanced-custom-fields-pro/assets/build/js/acf-input.min.js)
+0013.465 () Unzip progress: 3004 out of 4090 files (46.9 MB, plugins/wp-file-manager/languages/wp-file-manager-uk.po)
+0017.725 () Unzip progress: 4005 out of 4090 files (65.2 MB, plugins/wp-file-manager/lib/codemirror/mode/gas/gas.js)
+0017.790 () Unzip progress: 4090 out of 4090 files (66.2 MB, plugins/wp-file-manager/lib/themes/light/css/statusbar.css)
+0017.802 () Moving old data: filesystem method / updraft_dir is potentially possible
+0017.802 () Moving old data: can potentially use wp_filesystem method / -old
+0017.802 () Moving old data out of the way...
+0018.226 () Top-level entities being moved: updraftplus, advanced-custom-fields-pro, index.php, essential-blocks, litespeed-cache, all-in-one-wp-migration, wp-file-manager
+0018.238 () Moving unpacked backup into place...
+0018.750 () Top-level entities being moved: updraftplus, advanced-custom-fields-pro, index.php, essential-blocks, litespeed-cache, all-in-one-wp-migration, wp-file-manager
+0018.771 () Cleaning up rubbish...
+0018.778 () Entity: themes
+0018.778 () restore_backup(backup_file=backup_2023-05-28-1620_Bbase_Code_b31327366037-themes.zip, type=themes, info=a:3:{s:4:"path";s:66:"/home/tranbang/public_html/karabun.tranbang.work/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0018.779 () Unpacking backup... (backup_2023-05-28-1620_Bbase_Code_b31327366037-themes.zip, 1.3 MB)
+0018.780 () Unzipping backup_2023-05-28-1620_Bbase_Code_b31327366037-themes.zip to /home/tranbang/public_html/karabun.tranbang.work/wp-content/upgrade/f94f19e1/ using UpdraftPlus_ZipArchive, starting index 0
+0018.869 () Unzip progress: 99 out of 99 files (3.9 MB, themes/index.php)
+0018.870 () Moving old data: filesystem method / updraft_dir is potentially possible
+0018.871 () Moving old data: can potentially use wp_filesystem method / -old
+0018.871 () Moving old data out of the way...
+0018.881 () Top-level entities being moved: index.php, bbase-code
+0018.882 () Moving unpacked backup into place...
+0018.900 () Top-level entities being moved: index.php, bbase-code
+0018.902 () Cleaning up rubbish...
+0018.911 () Entity: uploads
+0018.911 () restore_backup(backup_file=backup_2023-05-28-1620_Bbase_Code_b31327366037-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:67:"/home/tranbang/public_html/karabun.tranbang.work/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0018.912 () Unpacking backup... (backup_2023-05-28-1620_Bbase_Code_b31327366037-uploads.zip, 29.7 MB)
+0018.912 () Unzipping backup_2023-05-28-1620_Bbase_Code_b31327366037-uploads.zip to /home/tranbang/public_html/karabun.tranbang.work/wp-content/upgrade/db4b8f17/ using UpdraftPlus_ZipArchive, starting index 0
+0025.406 () Unzip progress: 193 out of 193 files (29.9 MB, uploads/2023/03/image-59-2-150x150.png)
+0025.408 () Moving old data: filesystem method / updraft_dir is potentially possible
+0025.408 () Moving old data: can potentially use wp_filesystem method / -old
+0025.408 () Moving old data out of the way...
+0025.428 () Moving unpacked backup into place...
+0025.448 () Cleaning up rubbish...
+0025.459 () Entity: others
+0025.459 () restore_backup(backup_file=backup_2023-05-28-1620_Bbase_Code_b31327366037-others.zip, type=others, info=a:2:{s:4:"path";s:59:"/home/tranbang/public_html/karabun.tranbang.work/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0025.459 () Unpacking backup... (backup_2023-05-28-1620_Bbase_Code_b31327366037-others.zip, 52.5 MB)
+0025.460 () Unzipping backup_2023-05-28-1620_Bbase_Code_b31327366037-others.zip to /home/tranbang/public_html/karabun.tranbang.work/wp-content/upgrade/dbc44cde/ using UpdraftPlus_ZipArchive, starting index 0
+0035.370 () Unzip progress: 3 out of 3 files (52.5 MB, index.php)
+0035.377 () Cleaning up rubbish...
+0035.414 () Restore successful!
+0035.415 () Restore successful
